@@ -1,0 +1,102 @@
+body {
+    text-decoration-color: black;
+    margin: 0px;
+    padding: 0px;
+    background: url(./y.png.png);
+}
+
+.left {
+    display: inline-block;
+
+}
+
+.left img {
+    width: 270px;
+    filter: invert(10%);
+}
+
+.left div {
+    text-align: center;
+}
+
+.btn {
+    margin: 0px 10px;
+    background-color: black;
+    color: blue;
+    padding: 2px 12px;
+    border: 20px;
+    cursor: pointer;
+}
+
+.btn :hover {
+    background-color:blue;
+}
+
+.container {
+   
+    margin: 3px 3px;
+    padding: 3px 3px;
+    width: 35%;
+    border-radius: 3px;
+}
+
+.form-group input {
+    font-family: 'yatinder singh', cursive;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: left;
+    color: blue;
+}
+
+.container button {
+    display: block;
+    width: 10%;
+    margin: auto;
+}
+
+.mid {
+    display: inline;
+    text-align: center;
+    color: blue;
+    width: 20%;
+    margin: 5px auto;
+  
+}
+
+.right {
+    position: absolute;
+    right: 35px;
+    top: 34px;
+    display: inline-block;
+    
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 24px 33px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: none;
+    color: blue;
+}
